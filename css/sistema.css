@@ -1,0 +1,16 @@
+
+
+
+.espaco-top {margin-top:15px; }
+.espaco-left {margin-right:10px;}
+.linha-dupla {border-top: 1px double #ddd; box-shadow: 0 1px 0 #fff; border-bottom:1px solid #CCCCCC;}
+.icone {margin:3px 5px auto; float:left}
+.acesso {font-size:0.8em; color:#333333}
+/*TAGS */
+body{background: url('../img/bg-higia.jpg') no-repeat;}
+
+/*CONTEUDO */
+.conteudo {padding:5% 0}
+
+/*RODAPE */
+.rodape p { font-size:0.9em; color:#333333; }
