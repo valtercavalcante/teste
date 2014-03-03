@@ -12,15 +12,6 @@ class Inicio extends CI_Controller {
         $data['conteudo'] = 'painel/view_acesso';
         $this->load->view('tplCreate',$data);//tplCreate = Template padrao utilizado para cadastros
 	}
-	public function form1()
-	{
-		$data['legenda']= 'formulario exemplo';
-        $this->load->helper('form');
-        $this->load->helper('url');        
-        $data['js'] = load_js(array('jsCadastroUsuario.js'));//carrega o js para formatar os campos
-        $data['conteudo'] = 'usuario/formCadastro';
-        $this->load->view('tplCreate',$data);//tplCreate = Template padrao utilizado para cadastros
-	}
 	
 }
 
